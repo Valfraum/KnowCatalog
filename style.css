@@ -5,62 +5,14 @@ details > summary::marker{
     display: none;
     content:'';
 }
-.abt{
-    width: 150%;
-    height: 100%;
-    background-color: #00BFFF;
-    border:100% solid #00BFFF;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
 a{
     text-decoration: none;
     list-style: none;
-}
-.head1 {
-    padding: 30px;
-}
-.head_cont {
-    max-width:60%;
-    margin-inline:auto;
-}
-.head_cont_nav {
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
 }
 .display {
     display:flex;
     list-style: none;
     gap:20%;
-}
-.ss1{
-    position: relative;
-    color: var(--black);
-    transition: color 0.3s;
-}
-.ss1:hover{
-    color:#00BFFF ;
-}
-.ss{
-    position: relative;
-    color:var(--black) ;
-    font-size: 120%;
-    transition: color 0.3s;
-}
-.ss:hover{
-    color: #00BFFF;
-}
-.nabor_div {
-    max-width: 1000;
-    margin-inline:auto ;
-}
-.nabor_nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 .n1 {
     display: flex;
@@ -82,6 +34,152 @@ a{
 }
 .nabor_list{
     font-family: "DM Sans",sans-serif;
+}
+@media screen and (min-width:992px) {
+    .nabor {
+        padding-top: 5%;
+        padding-left: 6%;
+    }
+    .im1 {
+        width:68%;
+    }
+    .im2 {
+        width: 44%;
+    }
+    .head1{
+        padding: 30px;
+    }
+    .head_cont {
+        max-width:60%;
+        margin-inline:auto;
+    }
+    .head_cont_nav {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .nabor_div {
+        max-width: 1000;
+        margin-inline:auto ;
+    }
+    .zag {
+        display: flex;
+        list-style: none;
+        gap: 15%;
+        padding-bottom: 2%;
+        margin-left:15%;
+    }
+    .zag1 {
+        display: flex;
+        list-style: none;
+        gap: 14%;
+        margin-left:14%;
+        padding-bottom: 2%;
+    }
+    .ss {
+        position: relative;
+        color:var(--black) ;
+        font-size: 120%;
+        transition: color 0.3s;
+    }
+    .ss:hover {
+        color: #00BFFF;
+    }
+    .ss1 {
+        position: relative;
+        color: var(--black);
+        transition: color 0.3s;
+        font-size: 130%;
+        text-decoration: none;
+    }
+    .ss1:hover{
+        color:#00BFFF ;
+    }
+    .abt{
+        width: 150%;
+        height: 100%;
+        background-color: #00BFFF;
+        border:100% solid #00BFFF;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .display {
+        margin-right: 21%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .head2 {
+        padding: 3% 0 0 0;
+        max-width: 300px;
+    } 
+    .headm {
+        max-width:360px;
+        position: relative;
+        right:20px;
+    }
+    .im1 {
+        width:90px;
+    }
+    .im2 {
+        width:60px;
+        position: relative;
+        left:40px;
+    }
+    .head_cont_nav {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .nabor {
+        padding-top: 6%;
+    }
+    .nabor_div {
+        max-width:50%;
+        margin-right: 20%;
+        position: relative;
+    }
+    .zag {
+        display: flex;
+        list-style: none;
+        gap: 30%;
+    }
+    .zag1 {
+        display: flex;
+        list-style: none;
+        gap: 30%;
+    }
+    .ss {
+        position: relative;
+        color:var(--black) ;
+        font-size: 80%;
+        transition: color 0.3s;
+    }
+    .ss:hover {
+        color: #00BFFF;
+    }
+    .ss1 {
+        position: relative;
+        color: var(--black);
+        transition: color 0.3s;
+        font-size: 80%;
+        text-decoration: none;
+    }
+    .ss1:hover{
+        color:#00BFFF ;
+    }
+    .abt{
+        width: 50%;
+        height: 33%;
+        background-color: #00BFFF;
+        border:100% solid #00BFFF;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(184, 143, 143, 0.3);
+    }
+    .display {
+        position: relative;
+        right: 20px;
+    }
+
 }
 
 
