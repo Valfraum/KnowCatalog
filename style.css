@@ -119,35 +119,44 @@ a{
         margin-left: 20%;
     }
     .inf5 {
-        height: 50%;margin-left: 20%;
+        height: 50%;
+        margin-left: 20%;
     }
     .inf6 {
         height: 50%;
         margin-left: 20%;
     }
     .inf7 {
-        height: 50%;margin-left: 20%;
+        height: 50%;
+        margin-left: 20%;
     }
     .inf8 {
-        height: 8%;margin-left: 20%;
+        height: 8%;
+        margin-left: 20%;
     }
     .inf9 {
-        height: 43%;margin-left: 20%;
+        height: 43%;
+        margin-left: 20%;
     }
     .inf10 {
-        height: 60%;margin-left: 20%;
+        height: 60%;
+        margin-left: 20%;
     }
     .inf11 {
-        height: 43%;margin-left: 20%;
+        height: 43%;
+        margin-left: 20%;
     }
     .inf12 {
-        height: 43%;margin-left: 20%;
+        height: 43%;
+        margin-left: 20%;
     }
     .inf13 {
-        height: 55%;margin-left: 20%;
+        height: 55%;
+        margin-left: 20%;
     }
     .inf14 {
-        height: 100%;margin-left: 20%;
+        height: 100%;
+        margin-left: 20%;
     }
 }
 @media screen and (max-width: 992px) {
