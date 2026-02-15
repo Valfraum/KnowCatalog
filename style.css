@@ -36,6 +36,10 @@ a{
     font-family: "DM Sans",sans-serif;
 }
 @media screen and (min-width:992px) {
+    .inf1 {
+        width: 60%;
+        margin-left: 20%;
+    }
     .nabor {
         padding-top: 5%;
         padding-left: 6%;
@@ -106,6 +110,45 @@ a{
     .display {
         margin-right: 21%;
     }
+    .inf7 {
+        height: 50%;
+        margin-left: 20%;
+    }
+    .inf2 {
+        width: 40%;
+        margin-left: 20%;
+    }
+    .inf5 {
+        height: 50%;margin-left: 20%;
+    }
+    .inf6 {
+        height: 50%;
+        margin-left: 20%;
+    }
+    .inf7 {
+        height: 50%;margin-left: 20%;
+    }
+    .inf8 {
+        height: 8%;margin-left: 20%;
+    }
+    .inf9 {
+        height: 43%;margin-left: 20%;
+    }
+    .inf10 {
+        height: 60%;margin-left: 20%;
+    }
+    .inf11 {
+        height: 43%;margin-left: 20%;
+    }
+    .inf12 {
+        height: 43%;margin-left: 20%;
+    }
+    .inf13 {
+        height: 55%;margin-left: 20%;
+    }
+    .inf14 {
+        height: 100%;margin-left: 20%;
+    }
 }
 @media screen and (max-width: 992px) {
     .head2 {
@@ -124,7 +167,7 @@ a{
         width:40px;
         position: relative;
         right:30px;
-        top: 5px;
+        top: 4px;
     }
     .head_cont_nav {
         display:flex;
@@ -132,12 +175,13 @@ a{
         align-items: center;
     }
     .nabor {
-        padding-top: 6%;
+        padding-top: 1%;
     }
     .nabor_div {
         max-width:50%;
         position: relative;
         right: 20px;
+        bottom: 20px;
     }
     .zag {
         display: flex;
@@ -169,12 +213,15 @@ a{
         color:#00BFFF ;
     }
     .abt{
-        width: 50%;
-        height: 33%;
+        width: 280px;
+        height: 140px;
         background-color: #00BFFF;
         border:100% solid #00BFFF;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(184, 143, 143, 0.3);
+        position: absolute;
+        left: 70px;
+        z-index: 1;
     }
     .display {
         position: relative;
@@ -211,22 +258,66 @@ a{
     }
     .st {
         position: relative;
-        right: 15px;
+        right: 13px;
     }
     .st1 {
         position: relative;
-        right: 30px;
+        right: 28px;
     }
     .st2 {
         position: relative;
         right: 40px;
     }
+    .inf1 {
+        width: 100%;
+    }
+    .inf7 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf2 {
+        width:100%;
+    }
+    .inf5 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf6 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf7 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf8 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf9 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf10 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf11 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf12 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf13 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .inf14 {
+        width: 100%;
+        margin-left: 5%;
+    }
     
 
 }
-
-
-
-
-
-
