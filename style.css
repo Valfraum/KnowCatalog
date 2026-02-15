@@ -115,15 +115,16 @@ a{
     .headm {
         max-width:360px;
         position: relative;
-        right:20px;
+        right:40px;
     }
     .im1 {
         width:90px;
     }
     .im2 {
-        width:60px;
+        width:40px;
         position: relative;
-        left:40px;
+        right:30px;
+        top: 5px;
     }
     .head_cont_nav {
         display:flex;
@@ -135,18 +136,18 @@ a{
     }
     .nabor_div {
         max-width:50%;
-        margin-right: 20%;
         position: relative;
+        right: 20px;
     }
     .zag {
         display: flex;
         list-style: none;
-        gap: 30%;
+        gap: 10%;
     }
     .zag1 {
         display: flex;
         list-style: none;
-        gap: 30%;
+        gap: 10%;
     }
     .ss {
         position: relative;
@@ -179,6 +180,48 @@ a{
         position: relative;
         right: 20px;
     }
+    .tv {
+        position: relative;
+        left:50px;
+    }
+    .bio {
+        position: relative;
+        left:45px;
+    }
+    .chem {
+        position: relative;
+        left:30px;
+    }
+    .rus {
+        white-space: nowrap;
+        position: relative;
+        left:5px;
+    }
+    .geom {
+        position: relative;
+        left:35px;
+    }
+    .alg {
+        position: relative;
+        left:10px;
+    }
+    .display {
+        position: relative;
+        right: 30px;
+    }
+    .st {
+        position: relative;
+        right: 15px;
+    }
+    .st1 {
+        position: relative;
+        right: 30px;
+    }
+    .st2 {
+        position: relative;
+        right: 40px;
+    }
+    
 
 }
 
