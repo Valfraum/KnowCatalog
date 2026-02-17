@@ -761,7 +761,7 @@ a{
     }
     .eng139 {
         width: 100%;
-        margin-left: 5%;
+        margin-inline: 10%;
     }
     .eng140 {
         width: 100%;
@@ -869,3 +869,4 @@ a{
     }
 
 }
+
