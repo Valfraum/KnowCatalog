@@ -158,6 +158,265 @@ a{
         height: 100%;
         margin-left: 20%;
     }
+    .shp1 {
+        width: 45%;
+        margin-left: 25%;
+    }
+    .shp2 {
+        width: 40%;
+        margin-left: 25%;
+    }
+    .geog15 {
+        width: 30%;
+        margin-left: 20%;
+    }
+    .geog21 {
+        width: 50%;
+        margin-left: 20%;
+    }
+    .geog27 {
+        width: 35%;
+        margin-left: 20%;
+    }
+    .geog28 {
+        width: 40%;
+        margin-left: 20%;
+    }
+    .geog32 {
+        width: 20%;
+        margin-left: 40%;
+    }
+    .geog31 {
+        width: 30%;
+        margin-left: 20%;
+    }
+    .geog33 {
+        width: 35%;
+        margin-left: 10%;
+    }
+    .geog34 {
+        width: 35%;
+        margin-left: 10%;
+    }
+    .geog2z1 {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .geog2z2 {
+        width: 50%;
+        margin-left: 20%;
+    }
+    .geog2z7 {
+        width: 30%;
+        margin-left: 20%;
+    }
+    .geog2z9 {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .algd53 {
+        width: 15%;
+        margin-left: 10%;
+    }
+    .algd54 {
+        width: 25%;
+        margin-left: 10%;
+    }
+    .algd55 {
+        width: 30%;
+        margin-left: 10%;
+    }
+    .algd56 {
+        width: 5%;
+        margin-left: 10%;
+    }
+    .algd57 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .algd65 {
+        width: 30%;
+        margin-left: 10%;
+    }
+    .algd72 {
+        width: 50%;
+        margin-left: 5%;
+    }
+    .varl {
+        width: 10%;
+        margin-left: 10%;
+    }
+    .var155 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .var11 {
+        height: 43%;
+        margin-left: 20%;
+    }
+    .var160 {
+        width: 18%;
+        margin-left: 10%;
+    }
+    .var161 {
+        width: 22%;
+        margin-left: 10%;
+    }
+    .var162 {
+        width: 40%;
+        margin-left: 30%;
+    }
+    .rus74 {
+        width: 55%;
+        margin-left: 10%;
+    }
+    .rus76 {
+        width: 45%;
+        margin-left: 10%;
+    }
+    .rus80 {
+        width: 55%;
+        margin-left: 10%;
+    }
+    .rus81 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .sos110 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .sos112 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .chems {
+        width: 20%;
+        margin-left: 10%;
+    }
+    .chems2 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .chem124 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .chem125 {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .chem126 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .chem128 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .chem135 {
+        width: 35%;
+        margin-left: 10%;
+    }
+    .eng139 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .eng140 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .eng143 {
+        width: 35%;
+        margin-left: 10%;
+    }
+    .bio87 {
+        width: 35%;
+        margin-left: 10%;
+    }
+    .bio88 {
+        width: 25%;
+        margin-left: 10%;
+    }
+    .bio89 {
+        width: 30%;
+        margin-left: 10%;
+    }
+    .bio92 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .bio94 {
+        width: 45%;
+        margin-left: 10%;
+    }
+    .bio95 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .bio97 {
+        width: 45%;
+        margin-left: 10%;
+    }
+    .bio98 {
+        width: 45%;
+        margin-left: 10%;
+    }
+    .bio101 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .physs {
+        width: 21%;
+        margin-left: 10%;
+    }
+    .physs1 {
+        width: 20%;
+        margin-left: 10%;
+    }
+    .phys170 {
+        width: 45%;
+        margin-left: 10%;
+    }
+    .phys172 {
+        width: 20%;
+        margin-left: 10%;
+    }
+    .phys182 {
+        width: 15%;
+        margin-left: 10%;
+    }
+    .phys183 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .phys166 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .geom24 {
+        width: 30%;
+        margin-left: 20%;
+    }
+    .geom29 {
+        width: 20%;
+        margin-left: 20%;
+    }
+    .geom30 {
+        width: 30%;
+        margin-left: 20%;
+    }
+    .geom44 {
+        width: 30%;
+        margin-left: 20%;
+    }
+    .geom52 {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+
+
 }
 @media screen and (max-width: 992px) {
     .head2 {
@@ -222,14 +481,14 @@ a{
         color:#00BFFF ;
     }
     .abt{
-        width: 280px;
-        height: 140px;
+        width: 110px;
+        height: 145px;
         background-color: #00BFFF;
         border:100% solid #00BFFF;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(184, 143, 143, 0.3);
         position: absolute;
-        left: 70px;
+        left: 280px;
         z-index: 1;
     }
     .display {
@@ -327,6 +586,284 @@ a{
         width: 100%;
         margin-left: 5%;
     }
-    
+    .shp1 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .shp2 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .abt1 {
+        font-size: 60%;
+    }
+    .geog15 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog21 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog27 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog28 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog32 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog31 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog33 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog34 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog2z1 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog2z2 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog2z7 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geog2z9 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .algd53 {
+        width: 40%;
+        margin-left: 20%;
+    }
+    .algd54 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .algd55 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .algd56 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .algd57 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .alg65 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .algd56k {
+        width:15%;
+        margin-left: 10%;
+    }
+    .algd72 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .varl {
+        width: 20%;
+        margin-left: 11%;
+    }
+    .var155 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .var11 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .var160 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .var161 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .var162 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .rus74 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .rus76 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .rus80 {
+       width: 100%;
+        margin-left: 5%; 
+    }
+    .rus81 {
+       width: 100%;
+        margin-left: 5%; 
+    }
+    .sos110 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .sos112 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .chems {
+        width: 12%;
+        margin-left: 10%;
+    }
+    .chems2 {
+        width: 15%;
+        margin-left: 10%;
+    }
+    .chem124 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .chem125 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .chem126 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .chem128 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .chem135 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .chem135s {
+        width: 20%;
+        margin-left: 10%;
+    }
+    .eng139 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .eng140 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .eng143 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio87 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio88 {
+       width: 100%;
+       margin-left: 5%; 
+    }
+    .bio89 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio92 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio94 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio95 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio97 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio98 {
+       width: 100%;
+        margin-left: 5%;
+    }
+    .bio101 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .bio88s {
+       width: 40%;
+       margin-left: 13%; 
+    }
+    .physs {
+        width: 40%;
+        margin-left: 7%;
+    }
+    .physs1 {
+        width: 40%;
+        margin-left: 7%;
+    }
+    .phys170 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .phys172 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .phys182 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .phys183 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .phys182s {
+        width: 60%;
+        margin-left: 5%;
+    }
+    .phys172s {
+        width: 46%;
+        margin-left: 5%;
+    }
+    .phys166 {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .geom24 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .geom29 {
+        width: 40%;
+        margin-left: 10%;
+    }
+    .geom30 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .geom44 {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .geom52 {
+        width: 100%;
+        margin-left: 5%;
+    }
 
 }
