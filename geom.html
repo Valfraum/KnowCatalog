@@ -15,7 +15,8 @@
 .ss1:hover{
     color: #00BFFF;
   }
-  .button-class {
+ @media screen and (min-width:992px) {
+    .button-class {
 			background-color: #00BFFF;
 			border: none;
 			color: white;
@@ -31,6 +32,26 @@
   .button-class:hover {
     background-color:#8A2BE2;
     transition: 0.7s;
+  }
+  }
+  @media screen and (max-width: 992px) {
+    .button-class {
+			background-color: #00BFFF;
+			border: none;
+			color: white;
+			padding: 20px 40px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+  .button-class:hover {
+    background-color:#8A2BE2;
+    transition: 0.7s;
+  }
   }
   #myBtn {
   display: none;
@@ -265,3 +286,4 @@ function topFunction() {
 <h2 style="text-align: center;text-decoration: #00BFFF underline;font-size: 170%;">Вписанная и описанная окружность вокруг правильного многоугольника</h2>
 <p style="font-size: 120%;margin-inline: 10%;">Теоремы: <br> <br>Около любого правильного многоугольника можно описать окружность и при том только 1 <br> <br>В любой правильный многоугольник можно вписать окружность и при том только одну<br> <br>Следствия:<br> <br>Окружность,вписанная в правильный многоугольник касается всех его сторон в их серединах<br> <br>Центр окружности,описанной около правильного многоугольника,совпадает с центром окружности,вписанной в тот же многоугольник</p>
 </section>
+
