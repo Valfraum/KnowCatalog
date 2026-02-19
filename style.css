@@ -414,6 +414,11 @@ a{
         width: 50%;
         margin-left: 10%;
     }
+    .ss3 {
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 2%;
+    }
 
 
 
@@ -801,8 +806,14 @@ a{
     .geom52 {
         width: 100%;
     }
+    .ss3 {
+        font-size: 40px;
+        text-decoration: none;
+        margin-left: 2%;
+    }
 
 }
+
 
 
 
