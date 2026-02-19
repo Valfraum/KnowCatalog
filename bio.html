@@ -15,7 +15,8 @@
 .ss1:hover{
     color: #00BFFF;
   }
-  .button-class {
+  @media screen and (min-width:992px) {
+    .button-class {
 			background-color: #00BFFF;
 			border: none;
 			color: white;
@@ -31,6 +32,26 @@
   .button-class:hover {
     background-color:#8A2BE2;
     transition: 0.7s;
+  }
+  }
+  @media screen and (max-width: 992px) {
+    .button-class {
+			background-color: #00BFFF;
+			border: none;
+			color: white;
+			padding: 20px 40px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+  .button-class:hover {
+    background-color:#8A2BE2;
+    transition: 0.7s;
+  }
   }
   #myBtn {
   display: none;
@@ -261,3 +282,4 @@ function topFunction() {
 <p style="font-size: 120%;margin-inline: 10%;margin-left: 10%;">Генетическая информация — это своеобразная «документация» о том, в каком количестве, когда и какими в клетке должны синтезироваться белки. Она содержится в ядре клеток в виде молекул ДНК.</p>
 <img src="image2/109.png" class="bio101">
 <p style="font-size: 120%;margin-inline: 10%;margin-left: 10%;">Ядро — очень важная структура клетки. Именно в нем содержится информация о том, какой именно должна быть клетка, поэтому он должен быть надежно защищен. Для этого ядро отделяют от цитоплазмы 2 мембраны. Тем не менее ядро должно быть проницаемо, чтобы наследственная информация в виде своеобразной инструкции выходила из него и перемещалась к рибосомам — заводам по производству белка. Для этого в ядерных мембранах есть поры.</p>
+
