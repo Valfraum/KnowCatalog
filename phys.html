@@ -15,7 +15,8 @@
 .ss1:hover{
     color: #00BFFF;
   }
-  .button-class {
+ @media screen and (min-width:992px) {
+    .button-class {
 			background-color: #00BFFF;
 			border: none;
 			color: white;
@@ -31,6 +32,26 @@
   .button-class:hover {
     background-color:#8A2BE2;
     transition: 0.7s;
+  }
+  }
+  @media screen and (max-width: 992px) {
+    .button-class {
+			background-color: #00BFFF;
+			border: none;
+			color: white;
+			padding: 20px 40px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+  .button-class:hover {
+    background-color:#8A2BE2;
+    transition: 0.7s;
+  }
   }
   #myBtn {
   display: none;
@@ -190,3 +211,4 @@ function topFunction() {
 <h3 style="text-align: center;font-size: 150%;">Закон Джоуля — Ленца</h3>
 <p style="font-size: 120%;margin-inline: 10%;margin-left: 10%;">Количество теплоты, выделяемое за время в проводнике с током, пропорционально произведению квадрата силы тока на этом участке и сопротивления проводника:</p>
 <img src="image2/189.PNG" class="physs1">
+
