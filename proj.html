@@ -7,7 +7,8 @@
     background-image: url(image2/phon.webp);
     background-size: 40%;
   }
-  .button-class {
+ @media screen and (min-width:992px) {
+    .button-class {
 			background-color: #00BFFF;
 			border: none;
 			color: white;
@@ -23,6 +24,26 @@
   .button-class:hover {
     background-color:#8A2BE2;
     transition: 0.7s;
+  }
+  }
+  @media screen and (max-width: 992px) {
+    .button-class {
+			background-color: #00BFFF;
+			border: none;
+			color: white;
+			padding: 20px 40px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+  .button-class:hover {
+    background-color:#8A2BE2;
+    transition: 0.7s;
+  }
   }
   #myBtn {
   display: none;
@@ -72,3 +93,4 @@ function topFunction() {
 <p style="font-size: 120%;margin-inline: 10%;">Сокращать слова,кроме установленных правиласи русской орфографии, соответствующими государственными стандартами, а также в данном документе. <br><br>Обороты разговорной речи, иностранные слова при наличии равнозначных слов в русском языке <br><br>Нельзя сокращать обозначения единиц физических величин <br><br>Оформлять материал с обратной стороны листа</p>
 <h2 style="text-align: center;font-size: 150%;">Титульный лист включает</h2>
 <p style="font-size: 120%;margin-inline: 10%;">1.Образовательное учреждение. <br><br>2.Название проекта <br><br>3.Автор проекта <br><br>4.Руководитель проекта(консультант проекта)(если есть) <br><br>5.Город в котором сделана работа и год завершения проекта</p>
+
