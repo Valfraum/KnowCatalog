@@ -36,6 +36,17 @@ a{
     font-family: "DM Sans",sans-serif;
 }
 @media screen and (min-width:992px) {
+    .bt1 {
+        display: inline-block;
+        padding: 10px 20px;
+        background: linear-gradient(to  bottom right,#00BFFF, white);
+        text-decoration: none;
+        color: black;
+        border-radius: 4px;
+    }
+    .bt1:hover {
+        background: linear-gradient(to  bottom right,gray, white);
+    }
     .inf1 {
         width: 60%;
         margin-left: 20%;
@@ -82,12 +93,11 @@ a{
     }
     .ss {
         position: relative;
-        color:var(--black) ;
         font-size: 120%;
         transition: color 0.3s;
     }
     .ss:hover {
-        color: #00BFFF;
+        color:#00BFFF;
     }
     .ss1 {
         position: relative;
@@ -424,6 +434,19 @@ a{
 
 }
 @media screen and (max-width: 992px) {
+    .bt1 {
+        display: inline-block;
+        padding: 10px 20px;
+        background: linear-gradient(to  bottom right,#00BFFF, white);
+        text-decoration: none;
+        color: black;
+        border-radius: 4px;
+        margin-top: 5px;
+        
+    }
+    .bt1:hover {
+        background: linear-gradient(to  bottom right,gray, white);
+    }
     .head2 {
         padding: 3% 0 0 0;
         max-width: 300px;
@@ -457,12 +480,10 @@ a{
         bottom: 20px;
     }
     .zag {
-        display: flex;
         list-style: none;
         gap: 10%;
     }
     .zag1 {
-        display: flex;
         list-style: none;
         gap: 10%;
     }
@@ -500,31 +521,6 @@ a{
         position: relative;
         right: 20px;
     }
-    .tv {
-        position: relative;
-        left:50px;
-    }
-    .bio {
-        position: relative;
-        left:45px;
-    }
-    .chem {
-        position: relative;
-        left:30px;
-    }
-    .rus {
-        white-space: nowrap;
-        position: relative;
-        left:5px;
-    }
-    .geom {
-        position: relative;
-        left:35px;
-    }
-    .alg {
-        position: relative;
-        left:10px;
-    }
     .display {
         position: relative;
         right: 30px;
@@ -542,88 +538,115 @@ a{
         right: 40px;
     }
     .inf1 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf7 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf2 {
-        width: 100%;
+        width:90%;
+        margin-inline: 10%;
     }
     .inf5 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf6 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf7 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf8 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf9 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf10 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf11 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf12 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf13 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .inf14 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .shp1 {
         width: 100%;
+        margin-left: 5%;
     }
     .shp2 {
         width: 100%;
+        margin-left: 5%;
     }
     .abt1 {
         font-size: 60%;
     }
     .geog15 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog21 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog27 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog28 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog32 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog31 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog33 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog34 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog2z1 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog2z2 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog2z7 {
         width: 100%;
+        margin-left: 5%;
     }
     .geog2z9 {
         width: 100%;
+        margin-left: 5%;
     }
     .algd53 {
         width: 40%;
@@ -635,15 +658,19 @@ a{
     }
     .algd55 {
         width: 100%;
+        margin-left: 5%;
     }
     .algd56 {
         width: 100%;
+        margin-left: 5%;
     }
     .algd57 {
         width: 100%;
+        margin-left: 5%;
     }
     .alg65 {
-        width: 70%;
+        width: 100%;
+        margin-left: 5%;
     }
     .algd56k {
         width:15%;
@@ -651,6 +678,7 @@ a{
     }
     .algd72 {
         width: 100%;
+        margin-left: 5%;
     }
     .varl {
         width: 20%;
@@ -658,36 +686,47 @@ a{
     }
     .var155 {
         width: 100%;
+        margin-left: 5%;
     }
     .var11 {
         width: 100%;
+        margin-left: 5%;
     }
     .var160 {
         width: 100%;
+        margin-left: 5%;
     }
     .var161 {
         width: 100%;
+        margin-left: 5%;
     }
     .var162 {
         width: 100%;
+        margin-left: 5%;
     }
     .rus74 {
         width: 100%;
+        margin-left: 5%;
     }
     .rus76 {
         width: 100%;
+        margin-left: 5%;
     }
     .rus80 {
-       width: 100%; 
+       width: 100%;
+        margin-left: 5%; 
     }
     .rus81 {
        width: 100%;
+        margin-left: 5%; 
     }
     .sos110 {
         width: 100%;
+        margin-left: 5%;
     }
     .sos112 {
         width: 100%;
+        margin-left: 5%;
     }
     .chems {
         width: 12%;
@@ -699,58 +738,75 @@ a{
     }
     .chem124 {
         width: 100%;
+        margin-left: 5%;
     }
     .chem125 {
         width: 100%;
+        margin-left: 5%;
     }
     .chem126 {
         width: 100%;
+        margin-left: 5%;
     }
     .chem128 {
         width: 100%;
+        margin-left: 5%;
     }
     .chem135 {
         width: 100%;
+        margin-left: 5%;
     }
     .chem135s {
         width: 20%;
         margin-left: 10%;
     }
     .eng139 {
-        width: 100%;
+        width: 90%;
+        margin-inline: 10%;
     }
     .eng140 {
         width: 100%;
+        margin-left: 5%;
     }
     .eng143 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio87 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio88 {
-       width: 100%; 
+       width: 100%;
+       margin-left: 5%; 
     }
     .bio89 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio92 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio94 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio95 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio97 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio98 {
        width: 100%;
+        margin-left: 5%;
     }
     .bio101 {
         width: 100%;
+        margin-left: 5%;
     }
     .bio88s {
        width: 40%;
@@ -766,15 +822,19 @@ a{
     }
     .phys170 {
         width: 100%;
+        margin-left: 5%;
     }
     .phys172 {
         width: 100%;
+        margin-left: 5%;
     }
     .phys182 {
         width: 100%;
+        margin-left: 5%;
     }
     .phys183 {
         width: 100%;
+        margin-left: 5%;
     }
     .phys182s {
         width: 60%;
@@ -786,6 +846,7 @@ a{
     }
     .phys166 {
         width: 100%;
+        margin-left: 5%;
     }
     .geom24 {
         width: 40%;
@@ -805,20 +866,16 @@ a{
     }
     .geom52 {
         width: 100%;
+        margin-left: 5%;
     }
     .ss3 {
         font-size: 40px;
         text-decoration: none;
         margin-left: 2%;
     }
+    .algd65 {
+        width: 90%;
+        margin-left: 5%;
+    }
 
 }
-
-
-
-
-
-
-
-
-
