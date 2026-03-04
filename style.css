@@ -91,6 +91,26 @@ a{
         margin-left:14%;
         padding-bottom: 2%;
     }
+    .tooltip {
+        position: relative;
+        text-decoration: none;
+    }
+    .tooltip::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 100;
+        background: linear-gradient( to bottom right,#00BFFF, white);;
+        color: black;
+        padding: 7px 12 px;
+        border-radius: 3px;
+        display: none;
+        white-space: nowrap;
+    }
+    .tooltip:hover::after {
+        display: block;
+    }
     .ss {
         position: relative;
         font-size: 120%;
@@ -538,7 +558,6 @@ a{
     }
     .inf1 {
         width: 100%;
-        margin-inline:auto;
     }
     .inf7 {
         width: 100%;
@@ -812,4 +831,3 @@ a{
     }
 
 }
-
