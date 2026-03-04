@@ -538,6 +538,7 @@ a{
     }
     .inf1 {
         width: 100%;
+        margin-inline:auto;
     }
     .inf7 {
         width: 100%;
@@ -811,3 +812,4 @@ a{
     }
 
 }
+
