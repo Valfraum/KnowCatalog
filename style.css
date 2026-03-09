@@ -75,7 +75,7 @@ a{
     }
     .nabor_div {
         max-width: 1000;
-        margin-inline:auto ;
+        margin-right:14%;
     }
     .zag {
         display: flex;
@@ -831,3 +831,4 @@ a{
     }
 
 }
+
